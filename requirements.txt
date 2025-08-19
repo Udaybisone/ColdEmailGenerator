@@ -1,0 +1,11 @@
+# Core
+streamlit
+langchain    # pick a recent LangChain release (match your environment)
+langchain-ollama  # Ollama integration for LangChain
+chromadb
+sentence-transformers
+transformers
+beautifulsoup4
+requests
+python-dotenv
+tqdm

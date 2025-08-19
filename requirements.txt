@@ -2,6 +2,7 @@
 streamlit
 langchain    # pick a recent LangChain release (match your environment)
 langchain-ollama  # Ollama integration for LangChain
+pysqlite3-binary
 chromadb
 sentence-transformers
 transformers

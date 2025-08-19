@@ -1,3 +1,7 @@
+import sys
+import pysqlite3
+sys.modules["sqlite3"] = pysqlite3  # 👈 patch before chroma import
+
 import os
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.vectorstores import Chroma
